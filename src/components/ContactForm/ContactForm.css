@@ -1,0 +1,34 @@
+.ContactForm__form {
+  background-color: #dff3e3;
+  width: 460px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ContactForm__label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #556fb5;
+}
+
+.ContactForm__input {
+  width: 450px;
+  height: 20px;
+  margin: 5px 0;
+  padding-left: 5px;
+  vertical-align: baseline;
+}
+
+.ContactForm__button {
+  margin-top: 10px;
+  width: 120px;
+  height: 40px;
+}
+
+.ContactForm__button:hover {
+  background: #defcfc;
+  border: 2px solid #aeddcd;
+}

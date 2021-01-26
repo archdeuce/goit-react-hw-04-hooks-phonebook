@@ -1,0 +1,42 @@
+.ContactList__container {
+  background-color: #f7f7e8;
+  width: 500px;
+  padding-bottom: 20px;
+}
+
+.ContactList__list {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding-inline-start: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.ContactList__list_item {
+  padding: 0 20px;
+}
+
+.ContactList__name {
+  color: #7189bf;
+}
+
+.ContactList__dash {
+  color: #ffc785;
+}
+
+.ContactList__number {
+  color: #72d6c9;
+}
+
+.ContactList__delete_button {
+  margin-right: 10px;
+}
+
+.ContactList__delete_button:hover {
+  background-color: #ffd5cd;
+  border: 2px solid #efbbcf;
+}
